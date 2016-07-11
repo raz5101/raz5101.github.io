@@ -11,3 +11,8 @@ div {
   margin: 40px;
   //border: solid green 2px;
 }
+
+blockquote {
+  width: 50%;
+  margin: auto;
+}
