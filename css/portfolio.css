@@ -2,10 +2,13 @@ body {
   font-family: 'Mitr', sans-serif;
 }
 
+.container-fluid {
+  width: 100%;
+}
+
 .section {
   margin: 0px;
   padding: 100px 0px 100px 0px;
-  height: 100%;
 }
 
 .thumbnail {
@@ -32,17 +35,12 @@ footer {
   }
 
 .row {
-  height: 200px;
   padding: 0px 20px 0px 20px;
 }
 
-.image-placeholder {
-  opacity: 0.0;
-}
-
 #home {
-  color: rgb(255,255,255);
-  background: url(https://www.thewallpapers.org/photo/13947/Eternal_Sky_-_1600x1200_-_ID_43131.jpg) no-repeat center center fixed;
+  color: white;
+  background: url(http://www.thewallpapers.org/photo/13947/Eternal_Sky_-_1600x1200_-_ID_43131.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,7 +49,7 @@ footer {
 
 #about {
   color: rgb(0,0,0);
-  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255,.5);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -60,9 +58,18 @@ footer {
 
 #portfolio {
   color: rgb(255,255,255);
-  background: url(https://www.thewallpapers.org/photo/13947/Eternal_Sky_-_1600x1200_-_ID_43131.jpg) no-repeat center center fixed;
+  background: url(http://www.thewallpapers.org/photo/13947/Eternal_Sky_-_1600x1200_-_ID_43131.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+
+#contact {
+  width: 50%;
+  margin: auto;
+}
+
+#myNavbar {
+  padding-right: 10px;
 }
