@@ -20,7 +20,7 @@ footer {
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  border: 2px solid rgb(255,255,255);
+  border: 2px solid rgb(0,0,0);
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -59,7 +59,7 @@ footer {
 }
 
 #portfolio {
-  color: rgb(0,0,0);
+  color: rgb(255,255,255);
   background: url(http://www.thewallpapers.org/photo/13947/Eternal_Sky_-_1600x1200_-_ID_43131.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
