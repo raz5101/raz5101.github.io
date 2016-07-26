@@ -19,7 +19,7 @@ footer {
 .profile-photo {
   height: 250px;
   width: 250px;
-  background: url(https://edwardmacaya.files.wordpress.com/2014/02/cruise-smile.jpg) no-repeat center center;
+  background: url('images/BR_Profile_Med.jpg') no-repeat center center;
   border-radius: 50%;
   border: 2px solid black;
   margin: auto;
