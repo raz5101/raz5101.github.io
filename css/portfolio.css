@@ -1,75 +1,75 @@
 body {
-  font-family: 'Mitr', sans-serif;
+	font-family: 'Mitr', sans-serif;
+	margin: auto;
+	position: relative;
+	background: url('../images/cloudy-sky.jpg') no-repeat center center fixed;
 }
 
-.container-fluid {
-  width: 100%;
-}
-
-.section {
-  margin: 0px;
-  padding: 100px 0px 100px 0px;
-}
-
-.thumbnail {
-  background-color: rgb(255,255,255);
-  height: 100%;
+a {
+	text-decoration: none;
 }
 
 footer {
-  padding: 25px;
-}
-
-.profile-photo {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  border: 2px solid rgb(0,0,0);
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.description {
-  padding: 10px 10% 10px 10%;
-  }
-
-.row {
-  padding: 0px 20px 0px 20px;
+	padding: 20px;
+	background-color: rgb(255,255,255);
+	margin: 0px;
 }
 
 #home {
-  color: white;
-  background: url(http://www.thewallpapers.org/photo/13947/Eternal_Sky_-_1600x1200_-_ID_43131.jpg) no-repeat center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+	padding-top: 150px;
 }
 
 #about {
-  color: rgb(0,0,0);
-  background-color: rgba(255,255,255,.5);
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 #portfolio {
-  color: rgb(255,255,255);
-  background: url(http://www.thewallpapers.org/photo/13947/Eternal_Sky_-_1600x1200_-_ID_43131.jpg) no-repeat center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+	height: auto;
 }
 
 #contact {
-  width: 50%;
-  margin: auto;
+	background-color: rgba(0,0,0,.75);
+	padding: 100px 0px 100px 0px;
+	color: rgb(255,255,255);
+	margin-bottom: 0px;
 }
 
-#myNavbar {
-  padding-right: 10px;
+.section {
+	padding: 100px 0px 100px 0px;
+}
+
+.profile-photo {
+	margin: auto;
+	height: 250px;
+	width: 250px;
+	border: 2px solid rgb(0,0,0);
+	border-radius: 50%;
+	margin-top: 20px;
+	background: url('../images/BRProfileMed.jpg') no-repeat center center;
+}
+
+.inner {
+	margin: 0px 10% 0px 10%;
+	padding: 10px 10% 20px 10%;
+	background: rgba(255,255,255,.5);
+	border-radius: 10px;
+	height: 100%;
+}
+
+.portfolio {
+	padding: 10px 20px 10px 20px;
+}
+
+.row {
+	padding: 0px 20px 0px 20px;
+	height: auto;
+}
+
+.thumbnail {
+	background-color: rgb(255,255,255);
+	//height: auto;
+}
+
+.contact-form {
+	width: 50%;
+	margin: auto;
 }
