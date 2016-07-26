@@ -22,7 +22,7 @@ footer {
   border-radius: 50%;
   border: 2px solid rgb(0,0,0);
   margin: auto;
-  //margin-top: 20px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -47,6 +47,7 @@ footer {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  opacity: .5;
 }
 
 #about {
