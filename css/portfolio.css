@@ -52,6 +52,7 @@ footer {
 }
 
 #about {
+  color: white;
   background: url(https://upload.wikimedia.org/wikipedia/commons/c/cb/Wooden-plank-and-nailed-alum-sheet.jpg) no-repeat center center fixed;
    background-size: cover;
   -webkit-background-size: cover;
