@@ -10,11 +10,12 @@
   <link href="css/portfolio.css" rel="stylesheet">
   </head>
 <body>
+<link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
 <div class="container-fluid">
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div>
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="myNavbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -22,12 +23,12 @@
         </button>
         <a class="navbar-brand" href="#">Brian Rasmussen</a>
       </div>
-      <div id="myNavbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right" id="myNavbar">
+          <li class="nav-item active"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -35,7 +36,7 @@
   <div class="section text-center" id="home">
     <h1><b>iBri Software</b></h1>
     <div>
-      <img  class="profile-photo" src="images/BRProfileMed.jpg" />
+      <img  class="profile-photo" src="https://raz5101.github.io/images/BRProfileMed.jpg" />
     </div>
     <h2><b>Brian Rasmussen - Web Developer</b></h2>
   </div>
@@ -71,7 +72,7 @@
       <div class="col-md-3">
         <div class="thumbnail">
           <a href="https://codepen.io/raz5101/full/RRGpKz/" target="_blank">
-            <img src="images/tribute_page.png" />
+            <img src="https://raz5101.github.io/images/tribute_page.png" />
           </a>
           <div class="caption">
             <h2>Tribute Page</h2>
@@ -81,7 +82,7 @@
       <div class="col-md-3">
         <div class="thumbnail">
           <a href="https://codepen.io/raz5101/full/yJbqAG/" target="_blank">
-            <img src="images/local_weather.png" />
+            <img src="https://raz5101.github.io/images/local_weather.png" />
           </a>
           <div class="caption">
             <h2>Local Weather</h2>
@@ -91,7 +92,7 @@
       <div class="col-md-3">
         <div class="thumbnail">
           <a href="https://codepen.io/raz5101/full/NGgZgN/" target="_blank">
-            <img src="images/my_droid.png" />
+            <img src="https://raz5101.github.io/images/my_droid.png" />
           </a>
           <div class="caption">
             <h2>Fun Droid Logo</h2>
@@ -101,7 +102,7 @@
       <div class="col-md-3">
         <div class="thumbnail">
           <a href="#">
-            <img src="images/coming_soon.png" />
+            <img src="https://raz5101.github.io/images/coming_soon.png" />
           </a>
           <div class="caption">
             <h2>Coming Soon</h2>
@@ -111,7 +112,7 @@
       <div class="col-md-3">
         <div class="thumbnail">
           <a href="#">
-            <img src="images/coming_soon.png" />
+            <img src="https://raz5101.github.io/images/coming_soon.png" />
           </a>
           <div class="caption">
             <h2>Coming Soon</h2>
@@ -121,7 +122,7 @@
       <div class="col-md-3">
         <div class="thumbnail">
           <a href="#">
-            <img src="images/coming_soon.png" />
+            <img src="https://raz5101.github.io/images/coming_soon.png" />
           </a>
           <div class="caption">
             <h2>Coming Soon</h2>
@@ -130,10 +131,10 @@
       </div>
     </div>
   </div>
-  <div class="section text-left" id="contact">
-    <h1 class="text-center">Contact Me</h1>
-    <div style="width: 50%; margin: auto;">
-      <form>
+  <div class="section text-center" id="contact">
+    <h1>Contact Me</h1>
+    <div>
+      <form class="text-left">
         <fieldset class="form-group">
           <label for="inputEmail">Email address</label>
           <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" />
@@ -155,9 +156,7 @@
   </div>
 </div>
 <footer class="text-center">
-  <a href="#">
-    <p>&copy 2016 iBri Software</p>
-  </a>
+  <a href="#"><p>&copy 2016 iBri Software</p></a>
 </footer>
 </body>
 </html>
