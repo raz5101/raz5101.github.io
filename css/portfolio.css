@@ -19,7 +19,7 @@ footer {
 .profile-photo {
   height: 250px;
   width: 250px;
-  background: url('images/BR_Profile_Med.jpg');
+  background: url(images/BR_Profile_Med.jpg);
   border-radius: 50%;
   border: 2px solid black;
   margin: auto;
