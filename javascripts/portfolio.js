@@ -1,4 +1,7 @@
 $(document).ready(function(){
+	
+	$('.profile-photo').removeClass('hidden');
+	
 	$('.nav-item').click(function(){
 		$('.nav-item').removeClass('active');
 		$(this).addClass('active');
