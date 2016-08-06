@@ -1,0 +1,15 @@
+body {
+	padding: 10px;
+	font-family: Mitr, sans-serif;
+	text-align: center;
+}
+
+form {
+	width: 50%;
+	margin: auto;
+}
+
+#getMyNumber {
+	margin: 20px;
+	padding: 50px;
+}

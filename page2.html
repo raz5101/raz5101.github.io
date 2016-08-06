@@ -2,9 +2,44 @@
 <html>
 	<head>
 		<title>Page 2</title>
+
+	    <!--Meta-->
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!--Stylesheets-->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
+	    <link rel="stylesheet" href="css/page2.css">
+
 	</head>
 
 	<body>
 		<h1>Welcome to Page 2!!</h1>
+
+		<div class="getMyNumber">
+			<form class="text-left">
+				<fieldset class="form-group">
+					<label for="myNumber">Enter any positive integer:</label>
+					<input type="number" class="form-control" id="myNumber" min="1" max="10000" size="5" required/>
+				</fieldset>
+				<fieldset class="form-group">
+					<input type="submit" class="btn btn-primary" id="myButton" value="Show me the numbers!" />
+				</fieldset>
+			</form>
+		</div>
+
+		<div class="output">
+			Output Goes Here...
+		</div>
+
 	</body>
+
+	<!--Scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>-->
+	<script src="javascripts/page2.js"></script>
+
 </html>
