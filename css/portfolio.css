@@ -12,14 +12,11 @@ a {
 footer {
 	padding: 20px;
 	background-color: rgb(255,255,255);
-	margin: 0px;
+	margin: 0;
 }
 
 #home {
 	padding-top: 150px;
-}
-
-#about {
 }
 
 #portfolio {
@@ -28,13 +25,13 @@ footer {
 
 #contact {
 	background-color: rgba(0,0,0,.75);
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0 100px 0;
 	color: rgb(255,255,255);
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .section {
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0 100px 0;
 }
 
 .profile-photo {
@@ -48,7 +45,7 @@ footer {
 }
 
 .inner {
-	margin: 0px 10% 0px 10%;
+	margin: 0 10% 0 10%;
 	padding: 10px 10% 20px 10%;
 	background: rgba(255,255,255,.5);
 	border-radius: 10px;
@@ -60,13 +57,12 @@ footer {
 }
 
 .row {
-	padding: 0px 20px 0px 20px;
+	padding: 0 20px 0 20px;
 	height: auto;
 }
 
 .thumbnail {
 	background-color: rgb(255,255,255);
-	//height: auto;
 }
 
 .contact-form {
